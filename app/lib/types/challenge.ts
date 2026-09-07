@@ -23,7 +23,7 @@ export interface Challenge {
   challenge_id: string;
   title: string;
   description: string;
-  category: string;
+  category: ChallengeCategory;
   difficulty: ChallengeDifficulty;
   points: number;
   tags: string[];
